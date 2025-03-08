@@ -1,0 +1,56 @@
+
+
+.landing-page{
+    min-height: 70vh;
+   
+    margin-top: 2rem;
+    
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/landing-page.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;    
+    gap: 3rem;
+    padding: 3rem;
+    
+    
+}
+.landing-page h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.landing-page p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.landing-page button{
+    padding: 2rem;
+    font-size: larger;
+    font-weight: 900;
+    background-color: var(--color-black-light);
+    cursor: progress;
+}
+
+.landing-page button :hover{
+    background-color: var(--color-secondary);
+    transition: all;
+    cursor: pointer;
+}
+@media screen and(max-width:25em) {
+    .landing-page h1{
+        font-family: 1.5rem;
+    }
+    .landing-page button{
+        padding: 1rem;
+        font-size: small;
+    }
+}

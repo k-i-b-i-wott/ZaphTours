@@ -1,0 +1,25 @@
+.testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 30rem;
+    border: 3px solid red;
+}
+.imageWrapper{
+    max-width: 15rem;
+    max-height: 15rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 2px solid blue;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imageWrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+:root{
+  --color-primary: #95adbe;
+    --color-secondary: #ff7a5c;
+    --color-black: #000000;
+    --color-black-dark: #1a1a1a;
+    --color-black-light: #999999;
+    --color-white: #ffffff;
+    --color-white-light: #f5f4f0;
+    --font-primary: "Lora", serif;
+    --font-secondary: "Roboto", serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+body{
+  font-family: var(--font-primary);
+  font-size: 1.6rem;  
+  color: var(--color-primary);
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-black);
+  
+}
+ul,li{
+  list-style: none;
+
+}
