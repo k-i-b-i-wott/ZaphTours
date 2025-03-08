@@ -5,6 +5,7 @@ import About from '../../Components/About/About'
 import Destinations from '../../Components/destinations/Destinations'
 import Testimonies from '../../Components/Testimonies/Testimonies'
 import { Link } from 'react-router-dom'
+import { Newsletter } from '../../Components/NewsLetter/Newsletter'
 const Home = () => {
   return (
   <>
@@ -12,6 +13,7 @@ const Home = () => {
   <About />
   <Destinations />
   <Testimonies />
+  <Newsletter />
   </>
   )
 }

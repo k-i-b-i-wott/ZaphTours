@@ -2,24 +2,46 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-    max-width: 30rem;
-    border: 3px solid red;
+    /* justify-content: center; */
+    background-color: var(--clr-primary-1);
+    padding: 2rem 1rem;
+    max-width: 35rem;
+    background-color: var(--color-white-light);
 }
 .imageWrapper{
-    max-width: 15rem;
-    max-height: 15rem;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    border: 2px solid blue;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     overflow: hidden;
+
 }
 
 .imageWrapper img{
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
+    height: 100%; 
+   
+   
+    object-fit: cover;
+}
+
+.testimony-content{
+    text-align: center;
+    padding: 1rem;
+    color: black;
+    background-color: white;
+}
+.testimony-content h4{
+    align-self: flex-end;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.testimonies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    min-height: 50vh;
+    padding: 1rem 0;
+   
 }

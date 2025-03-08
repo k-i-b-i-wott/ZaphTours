@@ -1,0 +1,81 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.newsletter-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 3rem;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100vh;
+    text-align: center;
+    color: var(--black);
+    background-color: var(--color-white-light);
+}
+
+.form input{
+    width: 30vh;
+    padding: 1rem;
+    margin: .5rem 0;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
+
+.form button{
+    padding: 1rem 2rem;
+    background-color: var(--color-black);
+    color: var(--color-white-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 3rem;
+}
+
+.form h2{
+    color: var(--color-black);
+}
+
+.form p{
+    color: var(--color-black);
+}
+
+@media screen and (max-width: 768px){
+    .form input{
+        width: 80%;
+    }   
+    .input-box{
+        flex-direction: column;
+    }
+    .newsletter-sec{
+        gap: 1rem;
+    }
+    
+    .form{
+        max-width: 80vh;
+    }
+    .form p{
+        font-size: 1.2rem;
+        text-wrap: wrap;
+        padding: 1rem;
+    }
+    
+}
