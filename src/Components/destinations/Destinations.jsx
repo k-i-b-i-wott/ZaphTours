@@ -6,7 +6,7 @@ import { GiMountains , GiLion,GiSwanBreeze} from "react-icons/gi";
 import { SiAnimalplanet } from "react-icons/si";
 
 
-import Ruwenzori from '../../assets/ruwenzori.jpeg'
+import Ruwenzori from '../../assets/Ruwenzori.jpeg'
 import Nakuru from '../../assets/lake-nakuru.jpeg'
 import Tsavo from '../../assets/Tsavo.jpeg'
 import Nairobi from '../../assets/nairobi park.jpeg'
