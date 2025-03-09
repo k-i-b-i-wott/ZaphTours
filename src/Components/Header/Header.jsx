@@ -5,7 +5,7 @@ import './Header.css'
 
 const navigationLinks = [
     {title: 'Home', url: '/', id: 1},
-    {title: 'Destinations', url: '/Destinations', id: 2},
+    {title: 'Destinations', url: '/destinations', id: 2},
     {title: 'Trips', url: '/trips', id: 3},
     
     {title: 'Contact', url: '/contact', id: 4},
