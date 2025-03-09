@@ -1,6 +1,6 @@
 .destinations{
     display: flex;
-    background-color: var(--color-black-white);
+    background-color: var(--color-black-dark);
     padding: 2rem 2rem;
     justify-content: space-evenly;
     background-color: var(--color-white-light);
@@ -85,7 +85,7 @@ box-shadow: 5px 3px 24px 23px rgba(201,185,201,0.23);
     background-color: var(--color-black);
     color: var(--color-white);
 }
-@media screen and (max-width: 62.5em){
+@media screen and (max-width: 69.5em){
     .destinations-section{
         gap: 1rem;
     }
@@ -108,26 +108,27 @@ box-shadow: 5px 3px 24px 23px rgba(201,185,201,0.23);
     
 }
 
-@media screen and (max-width: 48em){
+
+@media screen and (max-width: 56.25em){
     .destinations-section{
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
     .featured-destinations{
-        max-width: 25rem;
+        max-width: 30rem;
     }
     .image-wrapper{
-        max-width: 25rem;
-        max-height: 25rem;
+        max-width: 30rem;;
+        max-height: 30rem;;
     }
     .icon-section{
-        max-width: 25rem;
+        max-width: 30rem;;
     }
     .description{
-        max-width: 25rem;
+        max-width: 30rem;;
     }
     .book{
-        max-width: 25rem;
+        max-width: 30rem;;
     }
 
     

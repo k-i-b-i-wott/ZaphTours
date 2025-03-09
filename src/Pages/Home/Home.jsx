@@ -31,7 +31,7 @@ function LandingPage() {
         Experience breathtaking Safaris ,scenic landscapes and unforgettable adventures across Kenya with expertly curated travel packages.
       </p>
 
-          <Link><button><a href={Contact}>Explore The World with Us</a></button></Link>
+      <Link to="/contact"><button>Explore The World with Us</button></Link>
       
     </div>
   );

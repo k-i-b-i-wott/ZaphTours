@@ -3,9 +3,12 @@ import aboutUs from '../../assets/about-us.jpg'
 import './About.css'
 const About = () => {
   return (
-    <div className="about">
-      <AboutUs />
-    </div>
+    // <div className="about">
+    //   <AboutUs />
+    // </div>
+    <>
+    <AboutUs />
+    </>
   )
 }
 

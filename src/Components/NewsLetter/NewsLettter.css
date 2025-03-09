@@ -5,6 +5,8 @@
     flex-direction: column;
     width: 100%;
     text-align: center;
+    padding: 3rem;
+    color: var(--color-white);
 }
 .newsletter-sec{
     display: flex;
@@ -12,6 +14,15 @@
     align-items: center;
     flex-direction: column ;
     gap: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/letter.jpeg);
+    padding: 3rem;
+    margin-top: 2rem;
+    -webkit-box-shadow: -7px -11px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px -11px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -7px -11px 5px 0px rgba(0,0,0,0.75);
+border-radius: 2rem;
+    
+    
     
 }
 
@@ -22,8 +33,8 @@
     flex-direction: column;
     max-width: 100vh;
     text-align: center;
-    color: var(--black);
-    background-color: var(--color-white-light);
+    color: var(--color-white);
+    /* background-color: var(--color-white-light); */
 }
 
 .form input{
@@ -35,12 +46,13 @@
 }
 
 .form button{
-    padding: 1rem 2rem;
-    background-color: var(--color-black);
+    padding: 2rem 2rem;
+    background-color: var(--color-secondary);
     color: var(--color-white-light);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .input-box{
@@ -51,11 +63,19 @@
 }
 
 .form h2{
-    color: var(--color-black);
+    color: var(--color-white);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 5rem;
+    padding: 2rem 0rem;
 }
 
 .form p{
-    color: var(--color-black);
+    color: var(--color-white);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px){
@@ -73,9 +93,51 @@
         max-width: 80vh;
     }
     .form p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-wrap: wrap;
         padding: 1rem;
     }
+    .form h2{
+        font-size: 3rem;
+    }
+    .form button{
+        padding: 1rem 1rem;
+    }
+    .form input{
+        padding: .5rem;
+        margin: .5rem 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .form input{
+        width: 100%;
+    }   
+    .input-box{
+        flex-direction: column;
+    }
+    .newsletter-sec{
+        gap: 1rem;
+    }
+    
+    .form{
+        max-width: 80vh;
+    }
+    .form p{
+        font-size: 1.5rem;
+        text-wrap: wrap;
+        padding: 1rem;
+    }
+    .form h2{
+        font-size: 3rem;
+    }
+    .form button{
+        padding: 1rem 1rem;
+    }
+    .form input{
+        padding: .5rem;
+        margin: .5rem 0;
+
+    }
+
     
 }
