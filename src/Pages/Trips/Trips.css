@@ -1,0 +1,118 @@
+.packages-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black-light);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    gap: 2rem;
+    
+
+}
+
+
+.package-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+  background-color: var(--color-white);
+    color: black;
+    max-height: 90vh;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width:40rem;
+    max-height:40rem;
+
+}
+.gallery img{
+    max-width: 15rem;
+}
+
+.icons{
+    max-width: 40rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+@media screen and (max-width: 50em){
+    .packages-wrapper{
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .package-wrapper{
+        max-width: 40rem;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width:40rem;
+        max-height:40rem;
+    
+    }
+    .gallery img{
+        max-width: 15rem;
+    }
+    
+    .icons{
+        max-width: 40rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+    }
+  
+    
+}
+
+@media screen and (max-width: 44em){
+    .packages-wrapper{
+       display: flex; 
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+    }
+    .package-wrapper{
+        max-width: 45rem;
+    }
+    .gallery{
+        
+        max-width:45rem;
+        max-height:40rem;
+    
+    }
+    .gallery img{
+        max-width: 15rem;
+    }
+    
+    .icons{
+        max-width: 45rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 1rem;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+}

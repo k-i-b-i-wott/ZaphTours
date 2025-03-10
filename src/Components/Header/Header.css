@@ -12,7 +12,7 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    
+    padding: 2rem;
     gap: 2rem;
    
 }
@@ -72,8 +72,13 @@
     
 }
 @media screen and (max-width: 25em){
+    .nav{
+        padding-left: 1rem;
+    }
     .nav ul li a{
         font-size: 2rem;
+        margin-right: 1rem;
+        
     }
     .nav ul{
         padding: 2rem 0.5rem;
