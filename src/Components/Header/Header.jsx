@@ -1,15 +1,7 @@
 import React from 'react'
 import Logo from '../Logo/Logo'
 import './Header.css'
-
-
-const navigationLinks = [
-    {title: 'Home', url: '/', id: 1},
-    {title: 'Destinations', url: '/destinations', id: 2},
-    {title: 'Trips', url: '/trips', id: 3},
-    
-    {title: 'Contact', url: '/contact', id: 4},
-]
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -28,8 +20,21 @@ function NavigationSection(){
     return (
         <nav className="nav">
             <ul>                
-                 {navigationLinks.map((link) => <li key={link.id}><a href={link.url}>{link.title}</a></li>)} 
+                 <Navigation to={"/"} label={"Home"} />
+                 <Navigation to={"/destinations"} label={"Destinations"} />
+                 <Navigation to={"/trips"} label={"Trips"} />
+                 <Navigation to={"/contact"} label={"Contact"} />                 
             </ul>
         </nav>
     )
+}
+
+
+
+function Navigation({to, label}){
+  return(
+    <li>
+      <NavLink to={to}> {label}</NavLink>
+    </li>
+  )
 }
