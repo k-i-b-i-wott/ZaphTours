@@ -105,6 +105,13 @@ button{
     color: var(--color-black);
     justify-self: flex-start;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    gap: 1rem;
+}
 
 .socials{
     display: flex;
@@ -143,10 +150,11 @@ button{
     .contact-details{
         display: flex;
         flex-direction: column;
-        gap: 3rem;
-        padding: 3rem;
+        gap: 2rem;
+        padding: 2rem;
         
         box-sizing: border-box;
+        margin-bottom: 4rem;
     
         
     }
@@ -155,8 +163,9 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
-        gap: 2rem;
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         color: var(--color-black);
         box-shadow: 0px 4px 29px 1px rgba(0,0,0,0.3);
         
@@ -165,14 +174,14 @@ button{
         font-weight: 700;
         color: var(--color-black);
         justify-self: flex-start;
+        
     }
     
     .cont-details{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2rem;
-        gap: 2rem;
+        justify-content: space-between;
+    
+        
     }
     .contactinfo h4{
         font-weight: 700;
@@ -180,23 +189,24 @@ button{
         justify-self: flex-start;
     }
     .socials{
-        display: flex;
-        gap: 2rem;
-        font-size: 3rem;
+        display: flex; 
+        flex-direction: column;       
+        
         color: var(--color-black-light);
+        max-height: 10rem;
+        
     }
     .map{
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin-top: 6rem;
     }
     .workinghours{
         width: 100%;
     }
     
-    .map iframe{
-        width: 100%;
-    }
+   
  
 
     

@@ -35,8 +35,9 @@ function ContactInfo(){
           </form>
             </div>
         <div className="contactinfo">
-            <h3>Contact Info</h3>
+      
             <div className="cont-details">
+            <div className='info'>
             <h4>Call Us</h4>
             <p className="phone"><FaPhone /> &nbsp; +254 123 456 789</p>
             <h4>Email Us</h4>
@@ -44,6 +45,9 @@ function ContactInfo(){
             <h4>Visit Us</h4>
             <p className="address"> <FaMapMarkerAlt/> &nbsp; 123 Main Street, Nairobi, Kenya</p>            
             </div>
+            
+            </div>
+            <div>
             <h4>Follow Us</h4>
             <div className="socials">
               <FaFacebookF />
@@ -52,20 +56,18 @@ function ContactInfo(){
               <FaLinkedinIn />
             </div>
           </div>          
+          </div>
       </div>
       <div className="map">
-          
-          <iframe width="600" height="200" title='Nairobi' frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=123%20Main%20Street,%20Nairobi,%20Kenya+(Zaph%20Tours)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe>
-          
-
-          <div className="workinghours">
+      <div className="workinghours">
             <h3>Working Hours</h3>
             <p>Monday - Friday: 9am - 8pm</p>
             <p>Saturday: 10am - 4pm</p>
             <p>Sunday: Closed</p>
           </div>
-
-          </div>
+          
+          <iframe width="600" height="200" title='Nairobi' frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=123%20Main%20Street,%20Nairobi,%20Kenya+(Zaph%20Tours)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/drones/">best drones</a></iframe>
+         </div>
     </div>
   )
 }
