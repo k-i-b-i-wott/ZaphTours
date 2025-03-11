@@ -2,8 +2,10 @@
 import { FaFacebookF ,FaLinkedinIn} from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 import './Footer.css'
+
 
 
 import logo from '../../assets/logo.png';
@@ -11,9 +13,9 @@ import logo from '../../assets/logo.png';
 
 const Footer = () => {
   return (
-    <Footer className='footer'>
+    <footer >
       <FooterDetails />
-    </Footer>
+    </footer>
   )
 }
 
@@ -32,15 +34,16 @@ function FooterDetails()
       </div>
        <h3><span className="head">Z</span>aph <span>T</span>ours</h3>  
       </div>
-      <div className="quick-Links">
+      <div className="quick-links">
+        <h3> Navigate </h3>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Destinations</a></li>
-          <li><a href="">Trips</a></li>
-          <li><a href="">Contact us</a></li>
+          <li> <NavLink to={'/'}>Home</NavLink></li>
+          <li><NavLink to={'/destinations'}>Destinations</NavLink></li>
+          <li><NavLink to={'/trips'}>Trips</NavLink></li>
+          <li><NavLink to={'/contact'}>Contact Us</NavLink></li>
         </ul>
       </div>
-      <div className="help">
+      <div className="support">
         <h3>Company</h3>
 
       <ul>
