@@ -50,8 +50,8 @@ function PackageContent({title,logo, description, price, offerPrice}){
        {description}
       </div>
       <div className="pricing">
-        <h2>{price}</h2>
-        <h2>{offerPrice}</h2>        
+        <h5>{price}</h5>
+        <h5>{offerPrice}</h5>        
       </div>
 </div>
  )
