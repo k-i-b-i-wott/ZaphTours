@@ -7,6 +7,7 @@
     padding: 2rem 1rem;
     margin-top: 2rem;
     gap: 2rem;
+    padding-bottom: 3rem;
     
 
 }
@@ -20,8 +21,9 @@
     max-width: 40rem;
   background-color: var(--color-white);
     color: black;
-    max-height: 90vh;
-    border-radius: 2rem;
+    max-height: 100vh;
+    border-radius: 1rem;
+    
     overflow: hidden;
     padding: 1rem;
 }
@@ -32,6 +34,13 @@
     max-width:40rem;
     max-height:40rem;
 
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    color: var(--color--secondary);
+    font-style: italic;
+    font-weight: 700;
 }
 .gallery img{
     max-width: 15rem;
@@ -75,6 +84,12 @@
         justify-content: center;
         display: flex;
         gap: 1rem;
+    }
+    .pricing h5{
+        text-align: center;
+        color: var(--color--secondary);
+        font-style: italic;
+        font-weight: 700;
     }
   
     

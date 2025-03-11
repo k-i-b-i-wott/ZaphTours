@@ -6,6 +6,7 @@
     flex-direction: column;
   
 }
+
 .footer-details{
     display: flex;
     justify-content: space-around;
@@ -54,6 +55,7 @@
     background-color: var(--color-black);
     color: var(--color-white);    
     text-align: center;
+    padding-bottom: 1rem;
 }
 .copy a{
     text-decoration: none;
@@ -86,6 +88,13 @@ h3{
     padding-bottom: 2rem;
 }
 
+.package-wrapper button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+   
+    font-weight: 700;
+}
 @media screen and (max-width: 768px){
     .footer-details{
         display: grid;
