@@ -42,6 +42,9 @@ import honey4 from '../../assets/honey4.jpg'
  import saf2 from '../../assets/saf2.jpeg'
  import saf3 from '../../assets/saf3.jpeg'
  import saf4 from '../../assets/saf4.jpeg'
+ import { FaRegHeart } from "react-icons/fa";
+ import { FaRegComment } from "react-icons/fa";
+
 
 const Trips = () => {
   return (
@@ -59,9 +62,9 @@ const Trips = () => {
  img1={beach1} img2={beach2} img3={beach3} img4={beach4} 
  price={"Ksh 14000 per person for 5 days/4 nights"} offerPrice={"Free scuba lesson for bookings by July 31, 2025"}/>
 
-<PackageContent title={"Holistic Wellness Retreat"} description={"Restore balance with this wellness-focused package. Enjoy yoga, mediation and spa treatments in the peaceful natural surroundings, complemented by nutritious cuisine. A rejuvenating escape that nurtures both body and soul amidst Kenya's beauty."} img1={wellness1} img2={wellness2} img3={wellness3} img4={wellness4} price={"Ksh 17 per person for 5 days/4 nights"} offerPrice={"Free guided meditation session with every booking"} />
+<PackageContent title={"Holistic Wellness Retreat"} description={"Restore balance with this wellness-focused package. Enjoy yoga, mediation and spa treatments in the peaceful natural surroundings, complemented by nutritious cuisine. A rejuvenating escape that nurtures both body and soul amidst Kenya's beauty."} img1={wellness1} img2={wellness3} img3={wellness2} img4={wellness4} price={"Ksh 17 per person for 5 days/4 nights"} offerPrice={"Free guided meditation session with every booking"} />
 <PackageContent title={"Cultural Odyssey Tour"} description={"Step into kenya's rich cultural taestry with this immersive package. Visit indigenous communities, explore ancient sites and participate in traditional crefts and dances. This tour offers an authentic connection to the people and heritage that define kenya's soul." }
-img1={maa1} img2={maa2} img3={maa3} img4={maa4} 
+img1={maa1} img2={maa3} img3={maa2} img4={maa4} 
   price={"Ksh 9000"} offerPrice={"Free guided market tour with every booking"}/>
 
 
@@ -93,7 +96,11 @@ function PackageContent({title,img1, img2, img3, img4, description, price, offer
         <img src={img2} alt="img3" />
         <img src={img3} alt="img4" />
         <img src={img4}alt="img4" />    
-      </div>      
+      </div>    
+      <div className="icons">
+        <FaRegHeart /> 
+        <FaRegComment />
+        </div>  
       <div className="description">
        {description}
       </div>

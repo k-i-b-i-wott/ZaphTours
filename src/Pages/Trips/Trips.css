@@ -60,6 +60,14 @@
     justify-content: center;
     gap: 1rem;
 }
+.icons{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
 @media screen and (max-width: 50em){
     .packages-wrapper{
         grid-template-columns: repeat(2, 1fr);   
