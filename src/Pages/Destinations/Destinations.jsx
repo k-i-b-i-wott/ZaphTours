@@ -8,6 +8,8 @@ import diani from '../../assets/diani.jpeg'
 import mara from '../../assets/maasai-mara.jpeg'
 import Lamu from '../../assets/lamu.jpeg'
 import { Link } from 'react-router-dom'
+import { FaUserGroup } from "react-icons/fa6";
+import { IoMdPerson } from "react-icons/io";
 const Destinations = () => {
   return (
     <div className='destinations'>
@@ -45,8 +47,8 @@ function Destination({image,Name,Description,individualPrice,groupPrice}){
         <Link to="#"><button>More Info</button></Link>
       </div>
       <div className="pricing-section">
-        <h4>Price Per Individual &nbsp; &nbsp; <strong>{individualPrice}</strong></h4>
-        <h4>Price per group &nbsp; &nbsp; <strong>{groupPrice}</strong></h4>
+        <h4><IoMdPerson /> &nbsp; <strong>{individualPrice}</strong></h4>
+        <h4><FaUserGroup />&nbsp; <strong>{groupPrice}</strong></h4>
       </div>
     </div>
   )
