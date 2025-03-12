@@ -76,6 +76,12 @@ function FooterDetails()
         <FaInstagramSquare />
         <FaLinkedinIn />
       </div>
+      <div className="working-hours">
+        <h3>Working Hours</h3>
+        <h4>Mon-Fri: 8am - 10pm</h4>
+        <h4>Sat: 10 am- 5pm</h4>
+        <h4>Sun: 9am- 4pm</h4>
+      </div>
      
     </div>
     <div className="copy">&copy; 2025  <a href="https://github.com/k-i-b-i-wott"> &nbsp; ZaphTours</a> . All rights reserved.</div>

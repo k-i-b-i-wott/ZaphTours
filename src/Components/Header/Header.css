@@ -4,6 +4,9 @@
     align-items: center;
     background-color: var(--color-white-light);
     padding: 2rem 4rem;
+    position: -webkit-sticky;
+    position: sticky;
+    
     box-shadow: 0px 4px 29px 1px rgba(0,0,0,0.6);
 -webkit-box-shadow: 0px 4px 29px 1px rgba(0,0,0,0.6);
 -moz-box-shadow: 0px 4px 29px 1px rgba(0,0,0,0.6);
